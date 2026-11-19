@@ -1,0 +1,49 @@
+.flavorCard{
+    background-color: rgb(250, 231, 207);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+}
+.soldOut{
+    background-color: rgb(181, 180, 180);
+}
+.removeButton{
+     color: rgb(178, 1, 104);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s ease;
+    background-color: rgb(244, 197, 197);
+    margin: 3px;
+
+}
+.addButton{
+     color: rgb(178, 1, 104);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s ease;
+    background-color: rgb(180, 215, 246);
+    margin: 3px;
+}
+.soldOutBadge{
+        position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #dc3545;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
